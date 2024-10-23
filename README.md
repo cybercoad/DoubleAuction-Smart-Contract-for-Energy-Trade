@@ -8,9 +8,9 @@ This repository contains the DoubleAuction smart contract, which implements a de
 * Prerequisites
 * Installation
 * Usage
- * Smart Contract Deployment
- * Interacting with the Smart Contract
- * DApp Features
+  * Smart Contract Deployment
+  * Interacting with the Smart Contract
+  * DApp Features
 * Smart Contract Functions
 
 ### Overview
@@ -58,13 +58,13 @@ npx hardhat run scripts/deploy.js --network <network-name>
 ```
 2. After deployment, note down the contract address. Update the frontend code to interact with the contract at this address.
    
-**Interacting with the Smart Contract**
+### Interacting with the Smart Contract
 You can interact with the deployed DoubleAuction contract using the DApp built with React and Web3.js.
 * Sellers can submit sell bids by specifying the number of units and the price per unit.
 * Buyers can submit buy bids similarly.
 * Market Operator is responsible for executing the auction to match bids and transfer ETH from buyers to sellers.
 
-**DApp Features**
+### DApp Features
 The DApp provides a user-friendly interface for:
 * Sellers to place bids and view past auctions.
 * Buyers to place bids and transfer ETH to matched sellers.
