@@ -21,7 +21,7 @@ This contract is part of a decentralized application (DApp) that has three roles
 1.Sellers: Place sell bids for goods or services.
 2.Buyers: Place buy bids.
 3.Market Operator: Executes the auction and finalizes transactions.
-###Features
+### Features
 *Allows sellers to place sell bids and buyers to place buy bids.
 *Executes double auctions based on matching bid logic.
 *Manages auction history and user roles (seller, buyer, market operator).
