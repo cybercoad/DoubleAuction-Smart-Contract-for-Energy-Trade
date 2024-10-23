@@ -18,9 +18,9 @@ The DoubleAuction smart contract provides an auction marketplace where buyers an
 
 This contract is part of a decentralized application (DApp) that has three roles:
 
-1.Sellers: Place sell bids for goods or services.
-2.Buyers: Place buy bids.
-3.Market Operator: Executes the auction and finalizes transactions.
+1. Sellers: Place sell bids for goods or services.
+2. Buyers: Place buy bids.
+3. Market Operator: Executes the auction and finalizes transactions.
 ### Features
 * Allows sellers to place sell bids and buyers to place buy bids.
 * Executes double auctions based on matching bid logic.
@@ -37,26 +37,26 @@ Before you start, ensure you have the following installed:
 
 ### Installation
 
-1.Clone this repository:
+1. Clone this repository:
 '''
 git clone https://github.com/YourUsername/DoubleAuction.git
 cd DoubleAuction
 '''
-2.Install the required dependencies:
+2. Install the required dependencies:
 '''
 npm install
 ...
-3.Compile the smart contract using Hardhat:
+3. Compile the smart contract using Hardhat:
 ...
 npx hardhat compile
 ...
 ### Usage
 **Smart Contract Deployment**
-1.Deploy the smart contract to a local Hardhat network or a testnet (e.g., Ropsten):
+1. Deploy the smart contract to a local Hardhat network or a testnet (e.g., Ropsten):
 '''
 npx hardhat run scripts/deploy.js --network <network-name>
 '''
-2.After deployment, note down the contract address. Update the frontend code to interact with the contract at this address.
+2. After deployment, note down the contract address. Update the frontend code to interact with the contract at this address.
 **Interacting with the Smart Contract**
 You can interact with the deployed DoubleAuction contract using the DApp built with React and Web3.js.
 * Sellers can submit sell bids by specifying the number of units and the price per unit.
