@@ -57,6 +57,7 @@ npx hardhat compile
 npx hardhat run scripts/deploy.js --network <network-name>
 ```
 2. After deployment, note down the contract address. Update the frontend code to interact with the contract at this address.
+   
 **Interacting with the Smart Contract**
 You can interact with the deployed DoubleAuction contract using the DApp built with React and Web3.js.
 * Sellers can submit sell bids by specifying the number of units and the price per unit.
