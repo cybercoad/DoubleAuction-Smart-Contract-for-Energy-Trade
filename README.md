@@ -2,7 +2,7 @@
 
 This repository contains the DoubleAuction smart contract, which implements a decentralized double auction mechanism on the Ethereum blockchain. It allows buyers and sellers to participate in auctions, match bids, and handle payments in a secure, transparent, and automated manner using Solidity.
 
-##Table of Contents
+## Table of Contents
 *Overview
 *Features
 *Prerequisites
@@ -13,7 +13,7 @@ This repository contains the DoubleAuction smart contract, which implements a de
  *DApp Features
 *Smart Contract Functions
 
-###Overview
+### Overview
 The DoubleAuction smart contract provides an auction marketplace where buyers and sellers can place bids. The contract matches bids based on predefined rules and facilitates payment transactions between parties.
 
 This contract is part of a decentralized application (DApp) that has three roles:
@@ -27,7 +27,7 @@ This contract is part of a decentralized application (DApp) that has three roles
 *Manages auction history and user roles (seller, buyer, market operator).
 *Secure transaction handling with Ethereum’s native cryptocurrency, Ether (ETH).
 
-###Prerequisites
+### Prerequisites
 Before you start, ensure you have the following installed:
 *Node.js (v16.x.x or above)
 *Hardhat (for contract deployment)
@@ -35,7 +35,7 @@ Before you start, ensure you have the following installed:
 *Web3.js (for interacting with the smart contract)
 *Vite (for frontend development)
 
-###Installation
+### Installation
 
 1.Clone this repository:
 '''
@@ -50,7 +50,7 @@ npm install
 ...
 npx hardhat compile
 ...
-###Usage
+### Usage
 **Smart Contract Deployment**
 1.Deploy the smart contract to a local Hardhat network or a testnet (e.g., Ropsten):
 '''
@@ -70,7 +70,7 @@ The DApp provides a user-friendly interface for:
 *Market operators to execute the auction logic and handle settlements.
 The DApp is built with React, Vite, and Web3.js, ensuring smooth interaction with the Ethereum network.
 
-###Smart Contract Functions
+### Smart Contract Functions
 Here are some key functions provided in the smart contract:
 
 *'placeSellBid(uint _amount, uint _price)': Allows a seller to place a bid.
